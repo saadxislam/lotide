@@ -23,8 +23,8 @@ const eqArrays = (array1, array2) => {
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
 const eqObjects = function(object1, object2) {
-  let keyArrObject1 = Object.keys(object1);
-  let keyArrObject2 = Object.keys(object2);
+  let keyArrObject1 = Object.keys(object1); // [c, d]
+  let keyArrObject2 = Object.keys(object2); // [d ,c]
   
   let objKeyLengthCheck = keyArrObject1.length === keyArrObject2.length;
 
