@@ -19,4 +19,6 @@ const countLetters = function(line) { //function that takes a line
 };
   
 
-console.log(countLetters('Lighthouse in the house')); //should return results indicating that L appears twice, and H once
+console.log(countLetters('LHL')); //should return results indicating that L appears twice, and H once
+
+assertEqual(countLetters('LHL'),{ L: 2, H: 1 } );
