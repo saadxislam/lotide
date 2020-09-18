@@ -7,17 +7,21 @@ const assertEqual = function(actual, expected) {
 };
 
 const eqArrays = (array1, array2) => {
+  let result = false;
   let arrayLengthCheck = array1.length === array2.length;
 
-  if (arrayLengthCheck) {
-    for (let i = 0; i < array1.length; i++) {
-      if (array1 [i] !== array2 [i]) {
-        return false;
-      }
+  if (arrayLengthCheck){
+    for (let i = 0; i < array1.length; i++){
+      if (array1 [i] === array2 [i]){
+        result = true;
+      } else {
+        result = false;
+        break;
+      } 
     }
-  }
-  return true;
-};
+  } 
+  return result;
+}
 
 
 // Returns true if both objects have identical keys with identical values.
