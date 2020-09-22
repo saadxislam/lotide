@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "lotide's package.json",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadxislam/lotide.git"
+  },
+  "author": "Saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadxislam/lotide/issues"
+  },
+  "homepage": "https://github.com/saadxislam/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
