@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@saadxislam/lotide",
   "version": "1.0.0",
   "description": "lotide's package.json",
   "main": "assertArraysEqual.js",

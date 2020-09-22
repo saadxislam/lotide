@@ -6,7 +6,7 @@
 //   }
 // };
 
-const assertEqual = require('./assertEqual');
+const assertEqual = require('./assertEqual'); //find the first element of an array
 
 const head = function (arrays){
     return arrays[0];
