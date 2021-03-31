@@ -33,10 +33,10 @@ The following functions are currently implemented:
 * `function4(takeUntil)`: Return an array until a condition is met
 * `function5(middle)`: if even numbered array, return middle 2 elems, if odd, then middle elem
 * `function6(map)`: returns the single elements asked for in an array
-* `function7(letterPositions)`: description
-* `function8(findKeyByValue)`: description
-* `function9(findKey)`: description
-* `function10(eqObjects)`: description
-* `function11(eqArrays)`: description
-* `function12(countOnly)`: description
-* `function13(countLetters)`: description
+* `function7(letterPositions)`
+* `function8(findKeyByValue)`
+* `function9(findKey)`
+* `function10(eqObjects)`
+* `function11(eqArrays)`
+* `function12(countOnly)`
+* `function13(countLetters)`
